@@ -58,13 +58,13 @@ License: MIT
          * Color of the "empty" arc. Only a color fill supported by now
          * @type {string}
          */
-        emptyFill: 'rgba(0, 0, 0, .1)',
+        emptyFill: '#D2D8DC',
 
         /**
          * Animation config (see jQuery animations: http://api.jquery.com/animate/)
          */
         animation: {
-            duration: 1200,
+            duration: 1500,
             easing: 'circleProgressEasing'
         },
 
