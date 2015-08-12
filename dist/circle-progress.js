@@ -29,7 +29,7 @@ License: MIT
          * Initial angle for 0.0 value in radians
          * @type {number}
          */
-        startAngle: -Math.PI,
+        startAngle: 4.9,
 
         /**
          * Width of the arc. By default it's auto-calculated as 1/14 of size, but you may set it explicitly in pixels
@@ -64,7 +64,7 @@ License: MIT
          * Animation config (see jQuery animations: http://api.jquery.com/animate/)
          */
         animation: {
-            duration: 1500,
+            duration: 1200,
             easing: 'circleProgressEasing'
         },
 
